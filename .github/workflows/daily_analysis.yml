@@ -1,0 +1,49 @@
+name: Daily NVIDIA Analysis
+
+on:
+  schedule:
+    # 毎日 日本時間の朝8時（UTC 23:00）に実行
+    - cron: '0 23 * * *'
+  workflow_dispatch: # GitHub画面上のボタンから手動実行するための設定
+
+permissions:
+  contents: write # 変更したJSONファイルをリポジトリに保存する権限
+
+jobs:
+  analyze_and_save:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies and Playwright browsers
+        run: |
+          pip install uv
+          uv pip install --system google-generativeai requests crawl4ai python-dotenv
+          # Crawl4AI用のブラウザをインストール
+          python -m playwright install chromium
+          
+      - name: Run Analysis Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+        run: |
+          python app/analyzer.py
+          
+      - name: Commit and Push JSON results
+        run: |
+          # 差分（新しく作られたJSON）があるか確認
+          if [[ -n $(git status -s) ]]; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add data/predictions.json
+            git commit -m "chore: 毎日のAI分析結果をJSONに保存 [skip ci]"
+            git push
+          else
+            echo "保存する新しいデータがありませんでした。"
+          fi
