@@ -3,6 +3,7 @@ import json
 import requests
 import asyncio
 import google.generativeai as genai
+from google.api_core.exceptions import ResourceExhausted  # 追加: API制限検知用
 from dotenv import load_dotenv
 from crawl4ai import AsyncWebCrawler
 from datetime import datetime, timedelta, timezone
@@ -16,7 +17,36 @@ if not GEMINI_API_KEY or not GNEWS_API_KEY:
     raise ValueError("APIキーが設定されていません。.envファイルを確認してください。")
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel("gemini-3-flash-preview")
+
+# 追加: ループ処理用のモデルリスト（必要に応じてモデル名は変更してください）
+FALLBACK_MODELS = [
+    "gemini-3-flash-preview",
+    "gemini-1.5-flash",
+    "gemini-1.5-pro",
+]
+
+
+def generate_with_fallback(prompt, generation_config=None):
+    """追加: モデルをループしてAPI制限時に別モデルに切り替える関数"""
+    for model_name in FALLBACK_MODELS:
+        try:
+            model = genai.GenerativeModel(model_name)
+            if generation_config:
+                return model.generate_content(
+                    prompt, generation_config=generation_config
+                )
+            else:
+                return model.generate_content(prompt)
+        except ResourceExhausted:
+            print(f"⚠️ [{model_name}] は使用制限に達しました。別のモデルを試します。")
+            continue
+        except Exception as e:
+            print(f"⚠️ [{model_name}] 実行中にエラーが発生しました: {e}")
+            continue
+
+    raise RuntimeError(
+        "❌ 利用可能なすべてのモデルで使用制限、またはエラーが発生しました。"
+    )
 
 
 def get_recent_news_gnews():  # 記事のリスト取得(titleとdescriptionとurlの辞書のリストを返す)
@@ -82,7 +112,8 @@ def filter_important_news(articles):  # 評価4以上のニュースのリスト
     {news_list_text}
     """
 
-    response = model.generate_content(
+    # generate_with_fallback を使用してループ処理
+    response = generate_with_fallback(
         prompt,
         generation_config=genai.types.GenerationConfig(
             response_mime_type="application/json"
@@ -136,12 +167,17 @@ def precise_financial_analysis(
     ・分析の根拠: [論理的で詳細な解説を300文字程度で]
     """
 
-    response = model.generate_content(prompt)
+    # generate_with_fallback を使用してループ処理
+    response = generate_with_fallback(prompt)
     return response.text
 
 
 async def main():
     try:
+        # 結果をまとめるためのリストを準備
+        daily_results = []
+        today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
         # Step 1
         articles = (
             get_recent_news_gnews()
@@ -152,37 +188,32 @@ async def main():
             articles
         )  # 評価4以上の記事のリストを返す
         if not target_articles:
+            print("本日は分析対象の重要なニュースがありませんでした。")
             return
 
-        # Step 3 & 4: Crawl4AIの起動と処理ループ
+        # Step 3 & 4
         print("\n🌐 [Step 3] Crawl4AIを起動し、全文取得を開始します...")
-
         async with AsyncWebCrawler(verbose=False) as crawler:
             for idx, article in enumerate(target_articles):
                 url = article.get("url")
                 title = article.get("title")
                 description = article.get("description")
 
-                print(f"{idx+1}件目処理開始")
-                print("-" * 50)
+                print(f"\n--- {idx+1}件目処理開始 ---")
                 print(f"📄 対象: {title}")
-                print(f"🔗 URL: {url}")
 
                 full_text = None
                 try:
                     result = await crawler.arun(url=url)
-
                     if (
                         result.success
                         and result.markdown
                         and len(result.markdown.strip()) > 100
                     ):
                         full_text = result.markdown[:10000]
-                        print(f"✅ {idx}件目全文取得成功")
+                        print(f"✅ 全文取得成功")
                     else:
-                        print(
-                            "⚠️ 全文取得失敗（アクセスブロック、またはテキスト抽出エラー）"
-                        )
+                        print("⚠️ 全文取得失敗")
                 except Exception as e:
                     print(f"❌ クローリング実行エラー: {e}")
 
@@ -190,9 +221,6 @@ async def main():
                     analysis_text = f"【ニュース全文】\n{full_text}"
                     is_fallback = False
                 else:
-                    print(
-                        "🔄 [代替処理] Step 1の概要（description）を使用してStep 4へ進みます。"
-                    )
                     analysis_text = (
                         f"【ニュース 概要】\nタイトル: {title}\n概要: {description}"
                     )
@@ -205,8 +233,45 @@ async def main():
                 print("📊 【最終精密分析結果】")
                 print(analysis_result)
 
+                # --- 修正箇所: 結果をリストに追加 ---
+                daily_results.append(
+                    {
+                        "date": today_str,
+                        "title": title,
+                        "url": url,
+                        "analysis": analysis_result,
+                        "is_fallback": is_fallback,
+                    }
+                )
+
+        # --- 追加箇所: JSONファイルへの保存処理 ---
+        save_results_to_json(daily_results)
+
     except Exception as e:
         print(f"\n🚨 致命的なエラーが発生しました: {e}")
+
+
+# --- 追加箇所: JSON保存用関数 ---
+def save_results_to_json(new_results, filepath="data/predictions.json"):
+    """分析結果をJSONファイルに追記保存する"""
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)  # dataフォルダがなければ作る
+
+    all_data = []
+    # 既存のデータがあれば読み込む
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                all_data = json.load(f)
+        except json.JSONDecodeError:
+            print("⚠️ 既存のJSONファイルが壊れているため、新規作成します。")
+
+    # 新しいデータを追加
+    all_data.extend(new_results)
+
+    # 保存
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(all_data, f, ensure_ascii=False, indent=4)
+    print(f"\n💾 分析結果を {filepath} に保存しました！")
 
 
 if __name__ == "__main__":
