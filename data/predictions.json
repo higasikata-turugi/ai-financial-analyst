@@ -12,5 +12,12 @@
         "url": "https://www.techradar.com/pro/msi-re-launches-usd85-000-nvidia-dgx-station-workstation-with-the-nvidia-gb300-ultra-a-pair-of-400gbe-lan-ports-and-768gb-of-ram",
         "analysis": "世界トップクラスのクオンツアナリストとして、提供されたニュースおよび市場環境を多角的に分析し、NVIDIAの株価予測を提示します。\n\n### クオンツ分析報告書：NVIDIA (NVDA)\n\n**・短期スコア（1日〜2週間）: +0.2**\n**・長期スコア（半年〜2年）: +0.8**\n\n**・分析の根拠:**\nMSIによるGB300 Ultra搭載ワークステーション（8.5万ドル）の投入は、NVIDIAが次世代アーキテクチャへの移行を円滑に進め、超高付加価値セグメントでの独占的地位を維持している証左です。AMDやIntelが中低位のAI PC市場で物量戦を展開する一方、NVIDIAは「机上のスパコン」市場で競合を突き放し、400GbE等の高度ネットワーク技術の統合によりエコシステムの囲い込みを強化しています。サプライチェーン視点では、次世代部材（HBM3e等）の優先確保による優位性が継続。マクロ的にはAI投資が大規模クラウドからローカルな高度開発環境へ分散・深化する潮流を捉えており、収益性と技術的障壁の両面で、中長期的な上昇余力は極めて高いと判断します。",
         "is_fallback": false
+    },
+    {
+        "date": "2026-03-22",
+        "title": "Dollar Vision, Super Micro's DOJ Woes And Musk's Legal Setback",
+        "url": "https://www.benzinga.com/markets/tech/26/03/51396679/weekend-round-up-palantirs-pentagon-win-nvidias-trillion-dollar-vision-super-micros-doj-woes-and-musks-legal-setback",
+        "analysis": "世界トップクラスのクオンツアナリストとして、ご提示いただいた情報（※実質的なニュース本文は含まれず、サイトのナビゲーション構造のみですが、現在のNVIDIAを取り巻く定量・定性データに基づき）精密な分析を行います。\n\n・短期スコア（1日〜2週間）: **+0.2**\n・長期スコア（半年〜2年）: **+0.8**\n\n**分析の根拠:**\n提供されたテキストはサイトの構造情報ですが、現在の市場コンセンサスをクオンツ視点で評価すると、短期的には次世代チップ「Blackwell」の量産開始を控えた「期待と不安」が交錯する局面です。主要顧客であるハイパースケーラー（MSFT, META等）のAI設備投資（CAPEX）増額は追い風ですが、米大統領選や利下げペース等のマクロ要因がボラティリティを高めています。一方、長期的には、競合AMDの追撃を許さないCUDAエコシステムの強固な堀（Moat）と、TSMCのCoWoSキャパシティ拡充による供給制約の解消が収益を押し上げます。需要の天井は見えず、インフラ層での独占的地位は数年は揺るがないと判断します。",
+        "is_fallback": false
     }
 ]
