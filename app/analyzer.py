@@ -140,7 +140,7 @@ def filter_important_news(articles):  # 評価4以上のニュースのリスト
 
 def precise_financial_analysis(
     text, is_fallback=False
-):  # 記事の全文を入力してスコアと分析をtextで出力
+):  # 記事の全文を入力してスコアと分析をjsonで出力
     """Step 4: Geminiによる精密な財務分析とスコア出力"""
     print("🧠 [Step 4] Geminiによる精密分析を実行中...\n")
 
@@ -158,17 +158,25 @@ def precise_financial_analysis(
     【ルール】
     1. 表面的な事象だけでなく、競合他社、サプライチェーン、マクロ経済への波及効果も考慮すること。
     2. 短期スコア（1日〜2週間）と長期スコア（半年〜2年）を -1.0 〜 +1.0 の数値で出すこと。
-    
+    3.もし入力された情報に実質的なニュース本文が含まれていないと判断した場合は、スコアは両方0にして、reasoningには、「【エラー】本文が取得できていません」とだけ記載してください。
+
     {text}
     
-    【出力形式】
-    ・短期スコア: [数値]
-    ・長期スコア: [数値]
-    ・分析の根拠: [論理的で詳細な解説を300文字程度で]
+    必ず以下のJSONフォーマットのみを出力してください。
+    {{
+        "short_term_score": 数値(-1.0 to 1.0),
+        "long_term_score": 数値(-1.0 to 1.0),
+        "reasoning": "論理的で詳細な解説を300文字程度で"
+    }}
     """
 
     # generate_with_fallback を使用してループ処理
-    response = generate_with_fallback(prompt)
+    response = generate_with_fallback(
+        prompt,
+        generation_config=genai.types.GenerationConfig(
+            response_mime_type="application/json"
+        ),
+    )
     return response.text
 
 
@@ -204,11 +212,14 @@ async def main():
 
                 full_text = None
                 try:
-                    result = await crawler.arun(url=url)
+                    result = await crawler.arun(
+                        url=url,
+                        css_selector="article, main, .article-content, .page-content",
+                    )
                     if (
                         result.success
                         and result.markdown
-                        and len(result.markdown.strip()) > 100
+                        and len(result.markdown.strip()) > 500
                     ):
                         full_text = result.markdown[:10000]
                         print(f"✅ 全文取得成功")
@@ -227,9 +238,32 @@ async def main():
                     is_fallback = True
 
                 # Step 4: 分析実行
-                analysis_result = precise_financial_analysis(
+                raw_response = precise_financial_analysis(
                     analysis_text, is_fallback
-                )  # 記事の全文を入力してスコアと分析を出力
+                )  # スコアと分析をjsonで出力
+
+                if "【エラー】" in raw_response and not is_fallback:
+                    print(
+                        "⚠️ AIが本文なしと判定しました。概要のみで再分析を実行します。"
+                    )
+                    is_fallback = True
+                    analysis_text = (
+                        f"【ニュース 概要】\nタイトル: {title}\n概要: {description}"
+                    )
+                    raw_response = precise_financial_analysis(
+                        analysis_text, is_fallback
+                    )
+
+                try:
+                    analysis_result = json.loads(raw_response)
+                except json.JSONDecodeError:
+                    print("❌ 財務分析のJSON解析に失敗しました。")
+                    analysis_result = {
+                        "short_term_score": 0,
+                        "long_term_score": 0,
+                        "reasoning": "JSON解析エラー",
+                    }
+
                 print("📊 【最終精密分析結果】")
                 print(analysis_result)
 
