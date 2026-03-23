@@ -201,7 +201,7 @@ async def main():
 
         # Step 3 & 4
         print("\n🌐 [Step 3] Crawl4AIを起動し、全文取得を開始します...")
-        async with AsyncWebCrawler(verbose=False) as crawler:
+        async with AsyncWebCrawler(verbose=False, browser_type="firefox") as crawler:
             for idx, article in enumerate(target_articles):
                 url = article.get("url")
                 title = article.get("title")
@@ -211,23 +211,51 @@ async def main():
                 print(f"📄 対象: {title}")
 
                 full_text = None
-                try:
-                    result = await crawler.arun(
-                        url=url,
-                        css_selector="article, main, .article-content, .page-content",
-                    )
-                    if (
-                        result.success
-                        and result.markdown
-                        and len(result.markdown.strip()) > 500
-                    ):
-                        full_text = result.markdown[:10000]
-                        print(f"✅ 全文取得成功")
-                    else:
-                        print("⚠️ 全文取得失敗")
-                except Exception as e:
-                    print(f"❌ クローリング実行エラー: {e}")
+                max_retries = 3  # リトライ回数の上限
 
+                for attempt in range(max_retries):
+                    try:
+                        # 修正: Crawl4AIの強力なパラメータを活用する
+                        result = await crawler.arun(
+                            url=url,
+                            magic=True,  # CloudflareなどのBot検知を回避するステルスモード
+                            bypass_cache=True,
+                            word_count_threshold=50,  # 短すぎるノイズを事前排除
+                            # wait_for="js:() => document.readyState === 'complete'" # 必要に応じて追加: ページの完全読み込みを待つ
+                        )
+
+                        # 生のmarkdownではなく、ナビゲーションや広告を除去した fit_markdown を優先使用する
+                        target_markdown = (
+                            result.fit_markdown
+                            if result.fit_markdown
+                            else result.markdown
+                        )
+
+                        if (
+                            result.success
+                            and target_markdown
+                            and len(target_markdown.strip()) > 300
+                        ):
+                            full_text = target_markdown[:10000]
+                            print(
+                                f"✅ 全文取得成功 (試行 {attempt + 1}/{max_retries}回目)"
+                            )
+                            break  # 成功したらリトライループを抜ける
+                        else:
+                            print(
+                                f"⚠️ 全文取得失敗 または文字数不足 (試行 {attempt + 1}/{max_retries}回目)"
+                            )
+
+                    except Exception as e:
+                        print(
+                            f"❌ クローリング実行エラー (試行 {attempt + 1}/{max_retries}回目): {e}"
+                        )
+
+                    # 失敗した場合、最後の試行でなければ数秒待機してリトライ
+                    if attempt < max_retries - 1:
+                        await asyncio.sleep(3)
+
+                # 結果の判定とStep4へ
                 if full_text:
                     analysis_text = f"【ニュース全文】\n{full_text}"
                     is_fallback = False
