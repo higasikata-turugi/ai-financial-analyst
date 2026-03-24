@@ -3,7 +3,7 @@ import json
 import requests
 import asyncio
 import google.generativeai as genai
-from google.api_core.exceptions import ResourceExhausted  # 追加: API制限検知用
+from google.api_core.exceptions import ResourceExhausted
 from dotenv import load_dotenv
 from crawl4ai import AsyncWebCrawler
 from datetime import datetime, timedelta, timezone
@@ -101,6 +101,7 @@ def filter_important_news(articles):  # 評価4以上のニュースのリスト
     prompt = f"""
     あなたは金融アナリストです。以下のNVIDIAに関するニュース一覧を読み、それぞれの「NVIDIAの株価への影響の重要度」を1〜5の5段階で評価してください。
     （5: 決定的で重大な影響、4: 強い影響、3: 中程度、2: 軽微、1: 影響なし・ノイズ）
+    もし同じ内容のニュースが複数あれば、2つ目以降はスコアを1にしてください。
     
     必ず以下のJSONフォーマットのみを出力してください。
     [
