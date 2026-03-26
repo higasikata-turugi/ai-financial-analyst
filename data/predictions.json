@@ -74,5 +74,27 @@
             "reasoning": "Microsoftとの提携による原子力発電所建設へのAI活用は、AI市場の最大成長障壁である『電力不足』の解消に向けた戦略的布石です。短期的には価格目標の引き上げと大手テック企業との強固な関係性が投資家心理を改善させ、株価の下支えとなります。長期的には、NVIDIAの技術が計算資源からエネルギーインフラの最適化へと垂直統合されることを意味し、競合他社が容易に模倣できない高い参入障壁を築きます。データセンターの電力制限を突破することは、将来的なGPU需要の天井を引き上げる効果があり、サプライチェーン全体にとってもポジティブな波及効果が見込まれます。この提携はAIエコシステムにおけるNVIDIAの不可欠性をさらに強固にするものです。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-03-26",
+        "title": "Big Tech giants to spend more on capex than payouts in 2026 amid AI boom: HSBC",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/news/big-tech-giants-to-spend-more-on-capex-than-payouts-in-2026-amid-ai-boom-hsbc/articleshow/129822844.cms",
+        "analysis": {
+            "short_term_score": 0.4,
+            "long_term_score": 0.85,
+            "reasoning": "HSBCによる大手テック企業の設備投資（CAPEX）拡大予測は、NVIDIAにとって直接的な収益増を約束する極めてポジティブなシグナルです。AlphabetやAmazonが株主還元よりAIインフラ投資を優先する「メガサイクル」の加速は、NVIDIAのGPU需要が2026年まで高水準で持続することを裏付けています。短期的には市場の過熱感や金利動向によるボラティリティが予想されますが、サプライチェーンにおける同社の圧倒的価格決定力と、ハイパースケーラー側の投資意欲の強さを考慮すると、中長期的なファンダメンタルズは極めて堅固です。競合他社の台頭を上回るペースで市場全体が拡大しており、収益成長の蓋然性は非常に高いと分析します。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-03-26",
+        "title": "How Big Tech's $630 bln AI splurge will fall short",
+        "url": "https://www.reuters.com/commentary/breakingviews/how-big-techs-630-bln-ai-splurge-will-fall-short-2026-03-26/",
+        "analysis": {
+            "short_term_score": 0.4,
+            "long_term_score": 0.15,
+            "reasoning": "大手4社の6300億ドルという巨額投資のうち、約7割がNVIDIA製チップに充てられる点は、短期的には極めて強力な収益の下支え要因となる。需要の質と量は依然として高く、市場のセンチメントをポジティブに維持する。一方で、土地や電力、許可等の物理的ボトルネックによるデータセンター建設の遅延は、2026年の予算計画を狂わせるリスクを孕む。これはサプライチェーン下流の制約がNVIDIAの成長速度を規定し始めることを意味し、中長期的なAI投資サイクルに『踊り場』が生じる可能性を示唆している。短期的には成長持続だが、長期ではマクロ的な投資効率の低下と、インフラ側の制約による収益化の遅れを警戒すべき段階に入りつつある。"
+        },
+        "is_fallback": true
     }
 ]
