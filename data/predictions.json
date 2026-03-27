@@ -96,5 +96,27 @@
             "reasoning": "大手4社の6300億ドルという巨額投資のうち、約7割がNVIDIA製チップに充てられる点は、短期的には極めて強力な収益の下支え要因となる。需要の質と量は依然として高く、市場のセンチメントをポジティブに維持する。一方で、土地や電力、許可等の物理的ボトルネックによるデータセンター建設の遅延は、2026年の予算計画を狂わせるリスクを孕む。これはサプライチェーン下流の制約がNVIDIAの成長速度を規定し始めることを意味し、中長期的なAI投資サイクルに『踊り場』が生じる可能性を示唆している。短期的には成長持続だが、長期ではマクロ的な投資効率の低下と、インフラ側の制約による収益化の遅れを警戒すべき段階に入りつつある。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Update on Huawei chip designed to challenge Nvidia",
+        "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/03/27/huaweis-new-ai-chip-finds-favour-with-bytedance-alibaba-which-plan-to-place-orders-reuters-sources-say/",
+        "analysis": {
+            "short_term_score": -0.3,
+            "long_term_score": -0.5,
+            "reasoning": "ファーウェイの新AIチップがバイトダンスやアリババ等の中国大手から好意的な評価を得たことは、NVIDIAの中国市場における支配的地位への重大な脅威です。米国の輸出規制により性能を抑制した製品（H20等）の提供を余儀なくされる中、競合品が実用段階に入ったことで、中国内のAIインフラの「国産化」が加速します。これは短期的にはセンチメントの悪化を招き、長期的には同国でのエコシステム（CUDA）の独占崩壊と収益機会の恒久的な損失を意味します。サプライチェーンの切り替えはエヌビディアの成長シナリオに負の影響を与えますが、他地域での旺盛な需要が下支えとなるため、地域限定的な構造的リスクとして評価されます。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-03-27",
+        "title": "Nvidia Bets Big on AI Agents With New Tools, Hardware Push",
+        "url": "https://usaherald.com/nvidia-bets-big-on-ai-agents-with-new-tools-hardware-push/",
+        "analysis": {
+            "short_term_score": 0.4,
+            "long_term_score": 0.85,
+            "reasoning": "GTCでの発表は、単なるハードウェアの刷新に留まらず、AIエージェントという次世代の推論需要を創出する包括的なエコシステム構築を明示している。Blackwellアーキテクチャとソフトウェア（NIM）の統合により、競合他社（AMD、Intel）に対するソフトウェア的な参入障壁（モート）をさらに強化。短期的にはイベント期待による「材料出尽くし」の売りが出る可能性はあるが、AIエージェントによる継続的な推論ワークロードの増大は、TSMC等のサプライチェーン全体への好影響をもたらし、エンタープライズ市場での独占的地位を盤石にする。マクロ経済の不透明感の中でも、企業のAI投資対効果（ROI）を具現化するこの戦略は、長期的な収益の質を劇的に向上させる。"
+        },
+        "is_fallback": true
     }
 ]
