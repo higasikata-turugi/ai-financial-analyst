@@ -118,5 +118,16 @@
             "reasoning": "GTCでの発表は、単なるハードウェアの刷新に留まらず、AIエージェントという次世代の推論需要を創出する包括的なエコシステム構築を明示している。Blackwellアーキテクチャとソフトウェア（NIM）の統合により、競合他社（AMD、Intel）に対するソフトウェア的な参入障壁（モート）をさらに強化。短期的にはイベント期待による「材料出尽くし」の売りが出る可能性はあるが、AIエージェントによる継続的な推論ワークロードの増大は、TSMC等のサプライチェーン全体への好影響をもたらし、エンタープライズ市場での独占的地位を盤石にする。マクロ経済の不透明感の中でも、企業のAI投資対効果（ROI）を具現化するこの戦略は、長期的な収益の質を劇的に向上させる。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-03-28",
+        "title": "Huawei's Ascend 950PR AI Chip Just Won Over Chinese Customers By Mimicking CUDA Through CANN Next, Threatening NVIDIA's Moat",
+        "url": "https://wccftech.com/huawei-ascend-950pr-just-won-over-chinese-customers-by-mimicking-cuda/",
+        "analysis": {
+            "short_term_score": -0.15,
+            "long_term_score": -0.45,
+            "reasoning": "HuaweiのAscend 950PRがCANN Nextを通じてCUDA互換性を実現したことは、NVIDIAが持つ最大の防御壁であるソフトウェア・エコシステムに対する直接的な脅威です。性能面で劣るとしても、米国の輸出規制下にある中国市場において、既存のCUDA資産を流用できるメリットは極めて大きく、中国系テック企業の「NVIDIA離れ」を加速させる要因となります。短期的にはセンチメントの悪化に留まりますが、中長期的には、世界第2位の市場における市場シェアと価格支配力が構造的に毀損されるリスクを孕んでいます。グローバルなAI需要は依然として旺盛ですが、地域的な独占崩壊は将来のキャッシュフロー予測に下方圧力をかけるため、クオンツ的な観点からネガティブな要因として評価します。"
+        },
+        "is_fallback": true
     }
 ]
