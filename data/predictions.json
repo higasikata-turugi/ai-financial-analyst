@@ -129,5 +129,16 @@
             "reasoning": "HuaweiのAscend 950PRがCANN Nextを通じてCUDA互換性を実現したことは、NVIDIAが持つ最大の防御壁であるソフトウェア・エコシステムに対する直接的な脅威です。性能面で劣るとしても、米国の輸出規制下にある中国市場において、既存のCUDA資産を流用できるメリットは極めて大きく、中国系テック企業の「NVIDIA離れ」を加速させる要因となります。短期的にはセンチメントの悪化に留まりますが、中長期的には、世界第2位の市場における市場シェアと価格支配力が構造的に毀損されるリスクを孕んでいます。グローバルなAI需要は依然として旺盛ですが、地域的な独占崩壊は将来のキャッシュフロー予測に下方圧力をかけるため、クオンツ的な観点からネガティブな要因として評価します。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-03-29",
+        "title": "AMD's Helios GPU Platform: A Game-Changer in AI Data Centers",
+        "url": "https://www.devdiscourse.com/article/technology/3854514-amds-helios-gpu-platform-a-game-changer-in-ai-data-centers",
+        "analysis": {
+            "short_term_score": -0.1,
+            "long_term_score": -0.3,
+            "reasoning": "AMDの次世代GPUプラットフォーム「Helios」の2026年投入は、NVIDIAの独占的地位に対する中期的な脅威となります。特に、TCSとの提携によるインド市場への食い込みとオープンシステム推進は、NVIDIAのCUDAによる囲い込み戦略を打破する可能性を秘めています。短期的にはNVIDIAの圧倒的な受注残と技術的優位性が継続するため影響は軽微ですが、投資家心理としては将来的な市場シェア侵食と価格競争の激化を懸念せざるを得ません。マクロ的には、AIインフラの多極化が進む兆候であり、NVIDIAの驚異的な利益率が持続可能かという点において、長期的には下方圧力を及ぼす要因になり得ます。"
+        },
+        "is_fallback": true
     }
 ]
