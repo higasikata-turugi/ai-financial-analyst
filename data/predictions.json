@@ -140,5 +140,27 @@
             "reasoning": "AMDの次世代GPUプラットフォーム「Helios」の2026年投入は、NVIDIAの独占的地位に対する中期的な脅威となります。特に、TCSとの提携によるインド市場への食い込みとオープンシステム推進は、NVIDIAのCUDAによる囲い込み戦略を打破する可能性を秘めています。短期的にはNVIDIAの圧倒的な受注残と技術的優位性が継続するため影響は軽微ですが、投資家心理としては将来的な市場シェア侵食と価格競争の激化を懸念せざるを得ません。マクロ的には、AIインフラの多極化が進む兆候であり、NVIDIAの驚異的な利益率が持続可能かという点において、長期的には下方圧力を及ぼす要因になり得ます。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-03-30",
+        "title": "Nvidia's PE sinks to 7-year low as war and AI angst weigh",
+        "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidias-pe-sinks-to-7-year-low-as-war-and-ai-angst-weigh/articleshow/129898017.cms",
+        "analysis": {
+            "short_term_score": -0.3,
+            "long_term_score": 0.8,
+            "reasoning": "地政学リスクや原油高に伴うインフレ懸念、金利上昇観測がマクロ環境を圧迫しており、短期的にはリスクオフの売り圧力が継続する可能性が高い。しかし、PERがAIブーム以前の7年ぶり低水準まで低下している事実は、爆発的な収益成長に対して株価が過小評価されていることを示唆する。NVIDIAのAI市場における独占的地位と強固なサプライチェーンは依然として盤石であり、マクロ要因による現在の調整は、中長期的なクオンツモデルにおいて極めて強力な「割安（バリュー）」シグナルと判断できる。競合他社と比較しても収益力と経済的堀（Moat）が際立っており、不透明感が払拭された際のリバウンド余地は極めて大きい。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-03-30",
+        "title": "Institutions have dumped over $70 billion of Nvidia stock",
+        "url": "https://finbold.com/institutions-have-dumped-over-70-billion-of-nvidia-stock/",
+        "analysis": {
+            "short_term_score": -0.65,
+            "long_term_score": -0.2,
+            "reasoning": "700億ドルに及ぶ機関投資家の売り越しは、短期的には巨大な需給の供給超過を生み出し、株価の強力な下押し圧力となります。クオンツ分析の観点では、いわゆる「スマートマネー」の離脱は成長のピークアウトやバリュエーションの限界を示唆するシグナルです。サプライチェーン側面では、大手テック企業によるAIチップ自社開発（ASIC化）への移行や、AMD等の競合によるシェア侵食が意識され始めている可能性があります。長期的なAI需要自体は堅調ですが、これほどの大規模なポジション解消は、市場の期待値が現実的な収益成長を超えたことへの警告であり、マクロ経済の不透明感と相まって、数四半期にわたる調整局面が続くリスクを内包しています。"
+        },
+        "is_fallback": true
     }
 ]
