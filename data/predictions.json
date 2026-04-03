@@ -184,5 +184,27 @@
             "reasoning": "中国市場におけるシェア41%の損失は、米国の輸出規制が皮肉にも中国国内チップメーカー（Huawei等）の「輸入代替」を加速させた結果である。Nvidiaの中国専用モデル（H20等）が現地勢に対して十分な競争力を維持できていない実態が浮き彫りとなった。短期的には、主要な収益源の一つでの成長鈍化が懸念され、株価には下方圧力がかかる。長期的には、世界最大級の市場を恒久的に失うリスクに加え、中国独自のAIエコシステムが確立されることで、NvidiaのCUDAによるロックイン効果が限定的になる懸念がある。グローバルなBlackwell需要は依然として高いものの、地政学的リスクによるTAM（総獲得可能市場）の縮小は、バリュエーションの重石となる。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-04-03",
+        "title": "Nvidia (NVDA) H100 Prices Surge 40% as New GPUs Fail to Meet Insatiable Demand",
+        "url": "https://markets.businessinsider.com/news/stocks/nvidia-nvda-h100-prices-surge-40-as-new-gpus-fail-to-meet-insatiable-demand-1035993322",
+        "analysis": {
+            "short_term_score": 0.85,
+            "long_term_score": 0.75,
+            "reasoning": "H100のレンタル価格が40%急騰した事象は、市場の需給が極端に逼迫しており、NVIDIAが圧倒的な価格支配力を維持していることを示す。次世代GPU（Blackwell等）の供給開始が需要に追いつかない現状は、短期的には既存製品の利益率をさらに押し上げ、ポジティブなサプライズ要因となる。競合他社がこの供給不足の隙を突けていない点は、CUDAを含む強固なエコシステムの独占力を証明している。供給網（TSMCのCoWoS等）の制約はリスクだが、未充足の需要は将来の収益バックログとして機能する。マクロ的なAI投資意欲も依然として高く、中長期的にも競合を突き放す成長が期待できるが、高すぎる期待値の維持が今後の課題となる。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-04-03",
+        "title": "NVDA, TSLA, PLTR: Hedge Funds Dump Stocks at Fastest Pace in 13 Years",
+        "url": "https://markets.businessinsider.com/news/stocks/nvda-tsla-pltr-hedge-funds-dump-stocks-at-fastest-pace-in-13-years-1035993319",
+        "analysis": {
+            "short_term_score": -0.75,
+            "long_term_score": -0.15,
+            "reasoning": "ゴールドマン・サックスの報告による「過去13年間で最速ペースのヘッジファンドによる売却」は、NVIDIAにとって極めて強い短期的な需給悪化シグナルである。機関投資家による急激なデレバレッジは、AIブームに対する過熱感の修正や四半期末の利益確定売りを示唆しており、短期的には強いボラティリティと価格下落の圧力が生じる。マクロ経済的には流動性の吸収を意味し、TSMC等のサプライチェーンやAMD等の競合にも波及する。長期的には、この動きはファンダメンタルズの崩壊というよりは需給の正常化プロセスであるが、これまでの異常な上昇モメンタムが一旦リセットされる可能性が高く、投資家のセンチメントが回復するには一定の時間を要すると分析する。"
+        },
+        "is_fallback": true
     }
 ]
