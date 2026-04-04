@@ -206,5 +206,16 @@
             "reasoning": "ゴールドマン・サックスの報告による「過去13年間で最速ペースのヘッジファンドによる売却」は、NVIDIAにとって極めて強い短期的な需給悪化シグナルである。機関投資家による急激なデレバレッジは、AIブームに対する過熱感の修正や四半期末の利益確定売りを示唆しており、短期的には強いボラティリティと価格下落の圧力が生じる。マクロ経済的には流動性の吸収を意味し、TSMC等のサプライチェーンやAMD等の競合にも波及する。長期的には、この動きはファンダメンタルズの崩壊というよりは需給の正常化プロセスであるが、これまでの異常な上昇モメンタムが一旦リセットされる可能性が高く、投資家のセンチメントが回復するには一定の時間を要すると分析する。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-04-04",
+        "title": "Nvidia launches enterprise AI agent platform with Adobe, Salesforce, SAP among 17 adopters at GTC 2026",
+        "url": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among",
+        "analysis": {
+            "short_term_score": 0.5,
+            "long_term_score": 0.85,
+            "reasoning": "NVIDIAがGTC 2026で発表した『Agent Toolkit』は、同社を単なる半導体メーカーから、AI経済の根幹を担うソフトウェア・プラットフォーム企業へと進化させる重要な布石です。AdobeやSalesforce、SAPといったSaaS大手を初期導入層に確保したことで、企業向けAIエージェントの標準規格を握る可能性が高まりました。短期的には有力企業との提携がポジティブな市場心理を形成し、長期的には推論需要の継続的な拡大と高利益率なソフトウェア収入の増加が見込まれます。これはCUDAを通じたエコシステムの囲い込みをさらに強化し、競合他社に対する圧倒的な参入障壁を構築するものであり、将来のキャッシュフローの質を劇的に向上させると評価します。"
+        },
+        "is_fallback": true
     }
 ]
