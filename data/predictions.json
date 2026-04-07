@@ -228,5 +228,27 @@
             "reasoning": "NVIDIAの新世代ネットワーキング技術（Spectrum-X等と推測）は、AIクラスターのボトルネックであるデータ転送効率を劇的に改善し、TCO低減と電力効率向上を同時に実現する。これは単なるチップ単体の性能向上を超え、データセンター全体のプラットフォーム化を加速させる極めてポジティブな材料。短期的には新製品への期待が株価の下支えとなるが、マクロ的な金利動向やテクニカルな調整局面の影響は残る。長期的には、エネルギー制約が深刻化する中で、高効率な通信インフラはBroadcom等の競合に対する強力な参入障壁となり、Blackwell世代以降の需要独占を確固たるものにする。サプライチェーン全体にとっても高付加価値化の恩恵は大きい。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-04-07",
+        "title": "Anthropic to use Google chips for Claude AI, it may put Nvidia under pressure",
+        "url": "https://www.indiatoday.in/technology/news/story/anthropic-to-use-google-chips-for-claude-ai-it-may-put-nvidia-under-pressure-2892670-2026-04-07",
+        "analysis": {
+            "short_term_score": -0.15,
+            "long_term_score": -0.35,
+            "reasoning": "AnthropicがGoogleの独自チップ（TPU）を採用する決定は、NVIDIAのH100/B200等に対する実質的な代替選択肢の台頭を意味する。短期的には「NVIDIA一強」の神話にヒビが入ることでセンチメントがやや悪化する。中長期的には、大手AIラボが特定のクラウドベンダーの独自ASICへの最適化を進めることで、NVIDIAのCUDAエコシステムによるロックイン効果が相対的に弱まるリスクを示唆している。ハイパースケーラーによる垂直統合の加速は、NVIDIAの価格支配力と市場シェアに対する構造的な脅威となり得る。ただし、全体的なAI計算需要が供給を大幅に上回る現状では、即座に業績が損なわれるわけではないが、マルチベンダー化の潮流は不可避なリスクである。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-04-07",
+        "title": "AI dreams crash into stark $7 trln reality",
+        "url": "https://www.reuters.com/commentary/breakingviews/ai-dreams-crash-into-stark-7-trln-reality-2026-04-07/",
+        "analysis": {
+            "short_term_score": -0.15,
+            "long_term_score": 0.45,
+            "reasoning": "短期的には、ハイパースケーラーの設備投資額がキャッシュフローや負債市場の限界に達する可能性が示唆され、AIバブルの持続性に対する市場の警戒感が強まるだろう。600億ドル/GWという膨大なコスト負担は、金利高止まりの環境下で資金調達コストを押し上げ、短期間の利益確定売りを誘発する要因となる。一方、長期的には、110GWという壮大な需要はNVIDIAにとって極めて巨大なTAM（獲得可能な最大市場規模）を裏付けている。競合による内製チップ化の動きはあるものの、電力効率とエコシステムでの優位性は依然として高い。電力網や資金調達がボトルネックとなる中、最先端の効率を持つH100/Blackwellシリーズは事実上の標準インフラとしての地位を固め、持続的な成長に寄与すると分析する。"
+        },
+        "is_fallback": true
     }
 ]
