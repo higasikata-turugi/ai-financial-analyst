@@ -250,5 +250,27 @@
             "reasoning": "短期的には、ハイパースケーラーの設備投資額がキャッシュフローや負債市場の限界に達する可能性が示唆され、AIバブルの持続性に対する市場の警戒感が強まるだろう。600億ドル/GWという膨大なコスト負担は、金利高止まりの環境下で資金調達コストを押し上げ、短期間の利益確定売りを誘発する要因となる。一方、長期的には、110GWという壮大な需要はNVIDIAにとって極めて巨大なTAM（獲得可能な最大市場規模）を裏付けている。競合による内製チップ化の動きはあるものの、電力効率とエコシステムでの優位性は依然として高い。電力網や資金調達がボトルネックとなる中、最先端の効率を持つH100/Blackwellシリーズは事実上の標準インフラとしての地位を固め、持続的な成長に寄与すると分析する。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-04-09",
+        "title": "Coreweave and Meta announce $21 billion expanded AI infrastructure agreement",
+        "url": "https://www.marketscreener.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement-ce7e50dbd18cff25",
+        "analysis": {
+            "short_term_score": 0.8,
+            "long_term_score": 0.9,
+            "reasoning": "CoreWeaveとMetaによる210億ドルの大規模提携は、NVIDIAの次世代プラットフォーム「Vera Rubin」の初期導入を含んでおり、中長期的な収益の透明性を劇的に高める。この巨額契約は、AIインフラ需要がBlackwell世代以降も持続することを示し、市場の投資減速懸念を払拭する強力なファクトとなる。Metaという主要顧客がNVIDIAエコシステムへの依存を継続する姿勢は、自社開発チップ（MTIA）等による代替リスクが短期的に低いことを露呈させた。サプライチェーン全体への波及効果も大きく、競合他社に対する圧倒的な優位性と、AI半導体市場における強固な価格決定力の維持を裏付ける内容であり、株価への寄与度は極めて高いと判断する。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-04-09",
+        "title": "OpenAI halts UK stargate project amid regulatory, energy price concerns",
+        "url": "https://www.cnbc.com/2026/04/09/openai-halts-uk-stargate-project.html",
+        "analysis": {
+            "short_term_score": -0.2,
+            "long_term_score": -0.1,
+            "reasoning": "OpenAIの英国プロジェクト中断は、短期的にはAIインフラ投資への期待感に冷や水を浴びせ、NVIDIAの株価にネガティブなセンチメントをもたらす。エネルギーコストと規制という物理的・政治的制約が顕在化した点は、他地域での拡張性にも疑問を投げかける。しかし、NVIDIAの受注残は依然として記録的な水準にあり、特定プロジェクトの遅延が直近の業績に与える実質的影響は限定的である。長期的には、AIブームが「無限の成長」から「エネルギー制約と規制との闘い」という現実フェーズへ移行することを示唆しており、ハイパースケーラーの投資効率が厳格に評価されるだろう。競合に対する優位性は揺るがないが、マクロ経済的な投資ペース鈍化リスクを内包している。"
+        },
+        "is_fallback": true
     }
 ]
