@@ -305,5 +305,27 @@
             "reasoning": "エリザベス・ウォーレン上院議員によるSchedMD買収への懸念表明は、NVIDIAに対する規制・政治的リスクの高まりを示唆している。短期的には、独占禁止法や国家安全保障に関連するネガティブな報道が投資家心理を冷やし、ボラティリティを高める要因となる。長期的には、ソフトウェア層の垂直統合によるエコシステムの囲い込み戦略が当局の監視下に入ることで、インオーガニックな成長が鈍化するリスクがある。特にエネルギー省や国防省との関係性に疑義が呈されることは、将来的な政府系大型案件の受注において不透明感を生む。ただし、ハードウェアにおける圧倒的優位性は依然として強固であるため、現時点でのスコアの下落幅は限定的と判断する。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-04-16",
+        "title": "NVIDIA Supplier Taiwan Semiconductor Is Winning The AI Chip War - And The CEO Just Told Intel, Tesla Why",
+        "url": "https://www.benzinga.com/markets/earnings/26/04/51853088/nvidia-supplier-taiwan-semiconductor-is-winning-the-ai-chip-war-and-the-ceo-just-told-intel-tesla-why",
+        "analysis": {
+            "short_term_score": 0.85,
+            "long_term_score": 0.92,
+            "reasoning": "NVIDIAの独占的製造パートナーであるTSMCがQ2売上予測を上方修正し、「数年にわたるAI成長サイクル」を明言したことは、NVIDIAの収益見通しに対する強力な裏付けとなる。TSMCの好調はBlackwell等の次世代チップへの旺盛な需要を反映しており、供給網のボトルネック解消と生産能力拡大が進んでいることを示唆する。競合のIntelが製造面で遅れをとる中、TSMCとの強固な協力関係はNVIDIAの技術的優位性を盤石にする。マクロ経済的にはAI投資の持続性が証明された形となり、短期的な市場心理の改善に加え、長期的なバリュエーションの正当性が強化された。サプライチェーン全体の強気な見通しは、株価のさらなる上昇を牽引する。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-04-16",
+        "title": "Fresh demand for AI pushed world's largest chipmaker TSMC's profit up by 58%",
+        "url": "https://www.euronews.com/business/2026/04/16/fresh-demand-for-ai-pushed-worlds-largest-chipmaker-tsmcs-profit-up-by-58",
+        "analysis": {
+            "short_term_score": 0.8,
+            "long_term_score": 0.9,
+            "reasoning": "TSMCの好決算はNVIDIAにとって極めて強力なポジティブ材料です。世界最大のファウンドリであるTSMCの利益が58%急増し、その主因がAI需要とNVIDIAからの受注である事実は、NVIDIA製品への最終需要が依然として極めて旺盛であることを直接的に裏付けています。供給網の最上流における過去最高益と売上の伸びは、NVIDIAの次期決算に対する市場の期待値を大きく引き上げ、短期的な株価のモメンタムを強力にサポートします。長期的には、Appleを含むハイテク大手の需要が堅調なことから、AIインフラへの投資が単なる一過性のブームではなく、持続的な構造的成長フェーズにあることを示唆しています。これはTSMCの製造キャパシティ確保がNVIDIAの成長のボトルネックを解消し続け、競合に対する圧倒的な市場支配力を維持することを意味します。"
+        },
+        "is_fallback": true
     }
 ]
