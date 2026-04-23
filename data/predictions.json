@@ -371,5 +371,49 @@
             "reasoning": "次世代AIチップ「Vera Rubin」向けのSOCAMM2量産開始は、NVIDIAの製品ロードマップが計画通り進行していることを示す強力なシグナルだ。LPDDR5Xベースの低消費電力技術の導入は、AIデータセンターの最大のボトルネックである電力消費問題を緩和し、競合のAMD等に対する圧倒的なTCO（総所有コスト）優位性を確立する。SKハイニックスとの緊密な連携は、サプライチェーンの強靭さを証明しており、Blackwell以降の収益の持続可能性を裏付けている。短期では市場の期待感を高め、長期ではエッジサーバーから大規模計算基盤まで、省電力性能を武器とした市場支配力のさらなる強化が期待できる。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-04-23",
+        "title": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
+        "url": "https://itwire.com/business-it-news/data/nvidia-and-google-cloud-collaborate-to-advance-agentic-and-physical-ai.html",
+        "analysis": {
+            "short_term_score": 0.7,
+            "long_term_score": 0.9,
+            "reasoning": "NVIDIAの次世代「Vera Rubin」アーキテクチャとGoogle Cloudの提携は、市場の視点をBlackwell以降の成長持続性へとシフトさせる。100万個規模のGPUスケーリング能力は、次世代AIファクトリーの標準を再定義し、クラウドプロバイダーによる内製チップへの移行を抑制する強力な防衛策となる。Agentic/Physical AIへの焦点は、LLM以降の成長領域であるロボティクスや自律型エージェント市場における覇権を確実にする戦略。サプライチェーンへの巨大な需要継続を示唆しており、競合他社に対する技術的・構造的優位性がさらに拡大している。短期的な供給制約のリスクはあるが、中長期的な収益予見性は極めて高く、クオンツ的観点からも強い買いシグナルと判断できる。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-04-23",
+        "title": "Google made two new TPUs, AI performance up by more than 100 percent to take on Nvidia",
+        "url": "https://www.indiatoday.in/technology/news/story/google-made-two-new-tpus-ai-performance-up-by-more-than-100-percent-to-take-on-nvidia-2900297-2026-04-23",
+        "analysis": {
+            "short_term_score": -0.15,
+            "long_term_score": -0.3,
+            "reasoning": "Googleによる新型TPUの発表は、NVIDIAの主要顧客であるハイパースケーラーが内製化を加速させ、ベンダー依存を脱却しようとする動きを象徴している。短期的には、NVIDIAのCUDAエコシステムとBlackwellアーキテクチャの圧倒的優位性、および供給不足の状態から大きな影響はないが、市場センチメントには競合リスクとして軽微な下押し圧力がかかる。長期的には、Googleのような巨大資本が特定用途向けASIC（TPU）の性能を100%向上させることで、NVIDIAのデータセンター部門における利益率の高い汎用GPUのシェアを侵食する可能性がある。サプライチェーン全体で見れば、TSMCの先端プロセス容量の争奪が激化し、製造コストの増大に繋がるリスクも考慮すべきである。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-04-23",
+        "title": "AI export control measures aimed at China gain steam in U.S. House",
+        "url": "https://www.japantimes.co.jp/business/2026/04/23/tech/ai-export-control-china-us-house/",
+        "analysis": {
+            "short_term_score": -0.4,
+            "long_term_score": -0.2,
+            "reasoning": "米下院による輸出規制の「抜け穴」閉鎖の動きは、NVIDIAの収益の一部を支えていた中国向け減スペック製品（H20等）の販売停止に直結するリスクがあり、短期的には売上の下方修正要因として意識され、株価にはネガティブに作用する。マクロ経済的には米中技術冷戦の深化を意味し、サプライチェーンの分断コストを増大させる。長期的には、米国のハイパースケーラーや中東等の他地域でのAI需要がカバーするものの、中国市場という巨大なTAM（最大市場規模）を恒久的に喪失するリスクに加え、中国国内での代替チップ（Huawei等）の台頭を加速させる副作用がある。技術的優位性は保たれるが、地政学リスクが利益率の重石となるため、長期スコアもややマイナスと判断した。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-04-23",
+        "title": "Nvidia-Supplier SK Hynix Smashes Records with $35 Billion Quarter As AI Demand Defies Seasonality",
+        "url": "https://www.benzinga.com/markets/equities/26/04/51989190/sk-hynix-record-35bn-quarter-ai-demand-nvidia-supplier-growth",
+        "analysis": {
+            "short_term_score": 0.7,
+            "long_term_score": 0.85,
+            "reasoning": "主要サプライヤーであるSKハイニックスの記録的増収は、NVIDIAのGPU製造に不可欠なHBM（高帯域幅メモリ）の需要が極めて旺盛であることを示す強力な先行指標だ。季節性を無視した成長は、AI投資が一時的なブームではなく、企業の設備投資における最優先事項へと構造変化したことを裏付けている。この供給側の活況は、NVIDIAの次世代チップ「Blackwell」の順調な立ち上がりと、データセンター部門の収益が市場予想を上回る蓋然性を高める。短期的にはサプライヤーの好決算を受けた連れ高、長期的にはAIインフラ需要の持続性とエンタープライズSSDの需要増によるエコシステム全体の拡大が、NVIDIAの支配的地位をさらに強固にするだろう。"
+        },
+        "is_fallback": true
     }
 ]
