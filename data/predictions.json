@@ -415,5 +415,16 @@
             "reasoning": "主要サプライヤーであるSKハイニックスの記録的増収は、NVIDIAのGPU製造に不可欠なHBM（高帯域幅メモリ）の需要が極めて旺盛であることを示す強力な先行指標だ。季節性を無視した成長は、AI投資が一時的なブームではなく、企業の設備投資における最優先事項へと構造変化したことを裏付けている。この供給側の活況は、NVIDIAの次世代チップ「Blackwell」の順調な立ち上がりと、データセンター部門の収益が市場予想を上回る蓋然性を高める。短期的にはサプライヤーの好決算を受けた連れ高、長期的にはAIインフラ需要の持続性とエンタープライズSSDの需要増によるエコシステム全体の拡大が、NVIDIAの支配的地位をさらに強固にするだろう。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-04-24",
+        "title": "DeepSeek's AI Revolution: China Embraces Homegrown Technology",
+        "url": "https://www.devdiscourse.com/article/technology/3885664-deepseeks-ai-revolution-china-embraces-homegrown-technology",
+        "analysis": {
+            "short_term_score": -0.2,
+            "long_term_score": -0.4,
+            "reasoning": "DeepSeekがNVIDIAからHuawei製チップへ移行したことは、米国の輸出規制を背景とした中国の「脱NVIDIA」が実効性を伴い始めたことを示唆する。短期的には、世界的なAI需要の過熱とBlackwell等の次世代品への期待により、中国市場の一部喪失が業績に与える直接的打撃は限定的だが、センチメント面では下押し圧力となる。長期的には、中国という巨大なTAM（獲得可能な最大市場規模）において、Huaweiを中心とした独自のハード・ソフト一体型エコシステムが構築されるリスクが顕在化した。これはCUDAによる参入障壁が一部地域で無効化されることを意味し、将来的なNVIDIAの独占的地位と市場シェアに対する構造的な脅威となる。"
+        },
+        "is_fallback": true
     }
 ]
