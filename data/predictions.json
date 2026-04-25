@@ -426,5 +426,27 @@
             "reasoning": "DeepSeekがNVIDIAからHuawei製チップへ移行したことは、米国の輸出規制を背景とした中国の「脱NVIDIA」が実効性を伴い始めたことを示唆する。短期的には、世界的なAI需要の過熱とBlackwell等の次世代品への期待により、中国市場の一部喪失が業績に与える直接的打撃は限定的だが、センチメント面では下押し圧力となる。長期的には、中国という巨大なTAM（獲得可能な最大市場規模）において、Huaweiを中心とした独自のハード・ソフト一体型エコシステムが構築されるリスクが顕在化した。これはCUDAによる参入障壁が一部地域で無効化されることを意味し、将来的なNVIDIAの独占的地位と市場シェアに対する構造的な脅威となる。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-04-25",
+        "title": "Nvidia Tops $5 Trillion, Adds $200 Billion in a Single Day",
+        "url": "https://www.timesnownews.com/business-economy/companies/nvidia-tops-5-trillion-adds-200-billion-in-a-single-day-article-154166062",
+        "analysis": {
+            "short_term_score": 0.2,
+            "long_term_score": 0.8,
+            "reasoning": "時価総額5兆ドルの突破と1日2000億ドルの増加は、市場の圧倒的モメンタムとAI需要の底堅さを示唆しています。短期的には急騰後の利益確定売りや、テクニカルな過熱感による短期的な調整リスクを考慮し、微プラスに留めます。しかし、長期的にはBlackwell等の新製品サイクルとCUDAによる強固なエコシステムが参入障壁として機能し、支配的地位は揺るぎません。Alphabet等の競合による内製チップ開発はリスク要因ですが、汎用性とソフトウェア資産の厚みでNVIDIAが先行しています。サプライチェーン（TSMCのキャパシティ）が実質的な供給上限となるものの、マクロ経済におけるAIインフラへの資本投下は継続しており、クオンツ的観点からも成長率がバリュエーションを正当化し続ける可能性が高いと分析します。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-04-25",
+        "title": "China's DeepSeek Unveils V4 Built On Huawei Chips, Challenging Nvidia Dominance Amid US Tech Curbs",
+        "url": "https://www.benzinga.com/markets/tech/26/04/52050357/chinas-deepseek-unveils-v4-built-on-huawei-chips-challenging-nvidia-dominance-amid-us-tech-curbs",
+        "analysis": {
+            "short_term_score": -0.3,
+            "long_term_score": -0.4,
+            "reasoning": "DeepSeek V4がHuawei製チップで構築された事実は、米国の輸出規制下で中国のAI自給率が予想以上の速さで向上していることを示唆します。短期的には、Nvidiaにとって巨大市場である中国でのシェア喪失リスクと、Huawei製チップの実用性が証明されたことが投資家心理にネガティブに働きます。長期的には、中国独自のAIエコシステム（ハード・ソフトの垂直統合）が確立されることで、Nvidiaのグローバルな独占状態に対する構造的な脅威となります。米国や他地域での需要は依然として旺盛ですが、地政学リスクに伴う将来の市場縮小はバリュエーションの重石となるでしょう。"
+        },
+        "is_fallback": true
     }
 ]
