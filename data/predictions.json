@@ -448,5 +448,27 @@
             "reasoning": "DeepSeek V4がHuawei製チップで構築された事実は、米国の輸出規制下で中国のAI自給率が予想以上の速さで向上していることを示唆します。短期的には、Nvidiaにとって巨大市場である中国でのシェア喪失リスクと、Huawei製チップの実用性が証明されたことが投資家心理にネガティブに働きます。長期的には、中国独自のAIエコシステム（ハード・ソフトの垂直統合）が確立されることで、Nvidiaのグローバルな独占状態に対する構造的な脅威となります。米国や他地域での需要は依然として旺盛ですが、地政学リスクに伴う将来の市場縮小はバリュエーションの重石となるでしょう。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-04-26",
+        "title": "AI Splits Into Two Worlds as China Pushes Huawei Chips, Raising Stakes for Nvidia and AMD",
+        "url": "https://markets.businessinsider.com/news/stocks/ai-splits-into-two-worlds-as-china-pushes-huawei-chips-raising-stakes-for-nvidia-and-amd-1036063060",
+        "analysis": {
+            "short_term_score": -0.2,
+            "long_term_score": -0.3,
+            "reasoning": "米中間のAI技術分断（デカップリング）の加速は、NVIDIAにとって最大の不確実性である。短期的には米国務省の警告や地政学的緊張が投資家心理を冷やし、ボラティリティを高める要因となる。長期的には、中国がファーウェイ等の自国製チップへの移行を強めることで、NVIDIAが独占してきた中国市場のシェアが構造的に毀損されるリスクがある。DeepSeekのモデル開発遅延は技術的障壁の高さを示すが、国家主導の代替エコシステム構築は、CUDAのネットワーク外部性を切り崩す脅威となる。供給網の二極化は運営コストを増大させ、世界的なAI需要の伸びを相殺する可能性があるため、成長率の鈍化を織り込む局面にあると分析する。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-04-26",
+        "title": "NVIDIA Beats Everyone To DeepSeek V4 With Day-0 Blackwell Support, Pushing 3,500 Tokens Per Second On 1.6T Models",
+        "url": "https://wccftech.com/nvidia-beats-everyone-to-deepseek-v4-day-0-blackwell-support-pushing-3500-tokens-on-1-6t-models/",
+        "analysis": {
+            "short_term_score": 0.7,
+            "long_term_score": 0.8,
+            "reasoning": "BlackwellによるDeepSeek V4へのDay-0サポートは、ハードウェアとソフトウェアの密な垂直統合というNVIDIAの圧倒的な堀（Moat）を改めて証明した。1.6Tの巨大モデルに対しNVFP4を活用して3,500 tokens/sという驚異的な推論速度を実現したことは、次世代AIインフラにおけるエネルギー効率とスループットの基準を大幅に引き上げる。これはAMD等の競合に対する技術的優位性を誇示し、顧客のBlackwell移行への投資対効果（ROI）を明確化させる。短期的には強力なファンダメンタルズへの再評価を促し、長期的には推論市場での支配的地位を盤石にするポジティブな材料である。"
+        },
+        "is_fallback": true
     }
 ]
