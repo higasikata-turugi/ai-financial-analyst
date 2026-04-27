@@ -470,5 +470,27 @@
             "reasoning": "BlackwellによるDeepSeek V4へのDay-0サポートは、ハードウェアとソフトウェアの密な垂直統合というNVIDIAの圧倒的な堀（Moat）を改めて証明した。1.6Tの巨大モデルに対しNVFP4を活用して3,500 tokens/sという驚異的な推論速度を実現したことは、次世代AIインフラにおけるエネルギー効率とスループットの基準を大幅に引き上げる。これはAMD等の競合に対する技術的優位性を誇示し、顧客のBlackwell移行への投資対効果（ROI）を明確化させる。短期的には強力なファンダメンタルズへの再評価を促し、長期的には推論市場での支配的地位を盤石にするポジティブな材料である。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-04-27",
+        "title": "NVIDIA's 35x AI Inferencing Leap Arrives Early As Foxconn Fast-Fowards Groq 3 LPX Racks For Trillion-Parameter Models",
+        "url": "https://wccftech.com/nvidia-35x-ai-inferencing-leap-arrives-early-foxconn-fast-fowards-groq-3-lpx-racks/",
+        "analysis": {
+            "short_term_score": 0.75,
+            "long_term_score": 0.85,
+            "reasoning": "NVIDIAの推論特化型ソリューションが想定より早期に市場投入されるという報は、短期的な業績の上振れ期待を強く刺激する。35倍の推論性能向上は、現在のAI普及のボトルネックである「推論コスト」を劇的に改善し、顧客の投資対効果（ROI）を最大化させる。Foxconnとの提携によるラックの供給加速は、他社が模倣困難なサプライチェーンの優位性を証明している。競合のASIC勢やAMDに対し、市場シェアを維持しつつ推論領域でのドミナンスを盤石にする。ニュース概要にブランド名の混同が見られるものの、早期投入、圧倒的スペック、製造基盤の確保という3要素は、NVIDIAの株価成長を中長期でも強力に下支えする材料である。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-04-27",
+        "title": "Can DeepSeek’s Huawei powered V4 dent Nvidia’s $5 trillion dominance?",
+        "url": "https://www.businesstoday.in/technology/story/can-deepseeks-huawei-powered-v4-dent-nvidias-5-trillion-dominance-527544-2026-04-27",
+        "analysis": {
+            "short_term_score": -0.4,
+            "long_term_score": -0.2,
+            "reasoning": "DeepSeekのV4発表は、過去に時価総額を大幅に毀損させたR1モデルの再来を想起させ、短期的には心理的節目である5兆ドル到達後の利益確定売りを誘発する。特にHuawei製チップとの統合は、中国市場におけるNVIDIAの独占的地位への具体的脅威となる。サプライチェーンの観点では、アルゴリズムの効率化がGPU需要の純増を抑制する（CAPEXの最適化）懸念を投資家に与え、中長期的にはハードウェア優位性の相対的低下を招くリスクを孕む。ただし、同社のエコシステムとBlackwell需要は依然として強固であり、今回のニュースは即座の崩壊ではなく、過熱したバリュエーションの調整局面として作用する可能性が高い。"
+        },
+        "is_fallback": true
     }
 ]
