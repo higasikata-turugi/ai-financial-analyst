@@ -492,5 +492,27 @@
             "reasoning": "DeepSeekのV4発表は、過去に時価総額を大幅に毀損させたR1モデルの再来を想起させ、短期的には心理的節目である5兆ドル到達後の利益確定売りを誘発する。特にHuawei製チップとの統合は、中国市場におけるNVIDIAの独占的地位への具体的脅威となる。サプライチェーンの観点では、アルゴリズムの効率化がGPU需要の純増を抑制する（CAPEXの最適化）懸念を投資家に与え、中長期的にはハードウェア優位性の相対的低下を招くリスクを孕む。ただし、同社のエコシステムとBlackwell需要は依然として強固であり、今回のニュースは即座の崩壊ではなく、過熱したバリュエーションの調整局面として作用する可能性が高い。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-04-28",
+        "title": "Nvidia executive: The cost of AI tools is 'far beyond' the cost of human workers",
+        "url": "https://fortune.com/2026/04/28/nvidia-executive-cost-of-ai-is-greater-than-cost-of-employees/",
+        "analysis": {
+            "short_term_score": -0.3,
+            "long_term_score": -0.4,
+            "reasoning": "大手テック企業による7400億ドルの設備投資に対し、広範な生産性向上のエビデンスが欠如している事実は、AI投資のROI（投資利益率）に対する市場の疑念を増幅させる。特にNVIDIA幹部自らがAIツールのコストが人的コストを大幅に上回ると認めた点は、企業のAI導入障壁が想定より高いことを示唆しており、短期的な利益確定売りを誘発しやすい。長期的には、ハイパースケーラーの資本支出維持が不透明化し、サプライチェーン全体の需要鈍化や競合他社（AMDや自社製ASIC）へのシフトを招くリスクがある。マクロ経済の不確実性と相まって、AIブームの「期待と現実の乖離」が修正される局面に入っており、バリュエーション調整の圧力が強まると予測する。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-04-28",
+        "title": "Big Tech earnings to test AI demand - and Nvidia surge",
+        "url": "https://www.cityam.com/big-tech-earnings-to-test-ai-demand-and-nvidia-surge/",
+        "analysis": {
+            "short_term_score": 0.35,
+            "long_term_score": 0.78,
+            "reasoning": "大手ハイパースケーラー（MSFT, GOOGL, META, AMZN）の決算は、NVIDIAのデータセンター部門の収益に直結するAI設備投資（Capex）の持続性を測る極めて重要な先行指標です。短期的には、投資家の期待値が非常に高いため、各社のAI収益化の進捗が不透明な場合は一時的な調整リスクがありますが、各社がAI軍拡競争を継続する姿勢を示せば強力な買い材料となります。長期的には、ASIC等のカスタムチップによる競合リスクはあるものの、CUDAを中心とした強固なソフトウェアエコシステムと、TSMCの先端パッケージング容量を確保したサプライチェーンの優位性は揺るぎません。マクロ経済の減速懸念を上回るAIインフラへの構造的シフトは、今後2年間の成長を支える中核要因と分析します。"
+        },
+        "is_fallback": true
     }
 ]
