@@ -525,5 +525,16 @@
             "reasoning": "中国市場でのB300価格が米国の約2倍に高騰している事象は、NVIDIA製AIチップに対する圧倒的な需要と供給不足、そして代替製品の不在を如実に示している。SMCIに関連する密輸摘発によるグレーマーケットの縮小は、短期的にはサプライチェーンのコンプライアンスリスクや対中輸出規制のさらなる厳格化懸念を招き、株価には中立ないし軽微な変動要因となる。しかし、長期的には『法外なプレミアムを払ってでも入手すべき戦略物資』としての地位が再確認された。Huawei等の中国競合勢の追随を許さない圧倒的なMoat（経済的な堀）が証明されており、この強固な価格決定権と潜在的需要の大きさは、同社の長期的収益性と市場支配力を支える強力なファンダメンタルズとなる。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-05-01",
+        "title": "Nvidia, Microsoft, Reflection AI & AWS struck agreements with US Defense Department \"for lawful operational use\" - Bloomberg News",
+        "url": "https://www.marketscreener.com/news/nvidia-microsoft-reflection-ai-aws-struck-agreements-with-us-defense-department-for-lawful-oper-ce7f58d9db80f02d",
+        "analysis": {
+            "short_term_score": 0.4,
+            "long_term_score": 0.7,
+            "reasoning": "米国防総省との契約締結は、NVIDIAのハードウェアが国家安全保障におけるAIインフラの標準であることを再確認させる強力なシグナルです。MicrosoftやAWSとの共同参画は、クラウドとハードウェアが一体化した防衛エコシステムの構築を示唆しており、短期的には市場の信頼性を高めるポジティブな材料となります。長期的には、政府予算による安定的かつ高利益率な収益源の確保に加え、AMDやIntelといった競合他社に対する参入障壁を一層強固にします。地政学的リスクに伴う輸出規制の懸念がある中で、米国内の巨大な公共需要をロックインしたことは、サプライチェーン全体の安定化と持続的な成長を担保する極めて重要なマクロ的進展と評価できます。"
+        },
+        "is_fallback": true
     }
 ]
