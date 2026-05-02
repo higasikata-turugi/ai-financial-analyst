@@ -536,5 +536,27 @@
             "reasoning": "米国防総省との契約締結は、NVIDIAのハードウェアが国家安全保障におけるAIインフラの標準であることを再確認させる強力なシグナルです。MicrosoftやAWSとの共同参画は、クラウドとハードウェアが一体化した防衛エコシステムの構築を示唆しており、短期的には市場の信頼性を高めるポジティブな材料となります。長期的には、政府予算による安定的かつ高利益率な収益源の確保に加え、AMDやIntelといった競合他社に対する参入障壁を一層強固にします。地政学的リスクに伴う輸出規制の懸念がある中で、米国内の巨大な公共需要をロックインしたことは、サプライチェーン全体の安定化と持続的な成長を担保する極めて重要なマクロ的進展と評価できます。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-05-02",
+        "title": "Pentagon reaches agreements with top AI companies, but not Anthropic",
+        "url": "https://www.cnbctv18.com/world/pentagon-reaches-agreements-with-top-ai-companies-but-not-anthropic-ws-l-19897475.htm",
+        "analysis": {
+            "short_term_score": 0.4,
+            "long_term_score": 0.8,
+            "reasoning": "ペンタゴンによる機密AIプロジェクトへの参画は、NVIDIAのハードウェア及びCUDAエコシステムが国家安全保障における事実上の標準であることを再確認させた。MicrosoftやAWS、OpenAIといった主要顧客が揃って選定されたことは、これらプラットフォームの基盤であるNVIDIA製品への需要が、防衛予算という強固な財源に裏打ちされることを意味する。Anthropicが供給網リスクを理由に除外された一方でNVIDIAが選定された点は、同社の供給安定性と戦略的重要性を市場に印象付ける。短期的には公的セクターへの信頼性向上によるプラス材料、長期的には『ソブリンAI』と景気後退に強い防衛需要の確保が、競合に対する圧倒的な参入障壁と持続的な収益基盤を強化する。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-05-02",
+        "title": "Nvidia's China Exposure Back In Focus As Senator Coons Probes H200 Export Claims",
+        "url": "https://www.benzinga.com/markets/tech/26/05/52235894/nvidias-china-exposure-back-in-focus-as-senator-coons-probes-h200-export-claims",
+        "analysis": {
+            "short_term_score": -0.2,
+            "long_term_score": -0.1,
+            "reasoning": "米上院議員がH200チップの対中輸出に関する不一致を追及している事象は、短期的には規制リスクの再燃と政治的不確実性を高め、株価の重石となる。商務省への圧力により輸出管理が厳格化された場合、中国市場という重要拠点での収益機会がさらに制限される恐れがある。これは競合するAMDや中国現地メーカーへのシェア転移を助長し、サプライチェーンへの政治介入を招くマクロ的な懸念材料である。長期的にはAIインフラ需要の堅調さが支えとなるが、地政学的リスクに伴うバリュエーション・プレミアムの低下は避けられない。規制当局との対立や制裁の可能性は、投資家心理を冷え込ませるノイズとして機能する。"
+        },
+        "is_fallback": true
     }
 ]
