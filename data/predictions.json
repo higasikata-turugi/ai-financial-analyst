@@ -558,5 +558,16 @@
             "reasoning": "米上院議員がH200チップの対中輸出に関する不一致を追及している事象は、短期的には規制リスクの再燃と政治的不確実性を高め、株価の重石となる。商務省への圧力により輸出管理が厳格化された場合、中国市場という重要拠点での収益機会がさらに制限される恐れがある。これは競合するAMDや中国現地メーカーへのシェア転移を助長し、サプライチェーンへの政治介入を招くマクロ的な懸念材料である。長期的にはAIインフラ需要の堅調さが支えとなるが、地政学的リスクに伴うバリュエーション・プレミアムの低下は避けられない。規制当局との対立や制裁の可能性は、投資家心理を冷え込ませるノイズとして機能する。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-05-03",
+        "title": "Nvidia CEO Jensen Huang has a 'Peace Idea' on AI for America and China, says: It is essential that both countries agree on…",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-ceo-jensen-huang-has-a-peace-idea-on-ai-for-america-and-china-says-it-is-essential-that-both-countries-agree-on/articleshow/130729150.cms",
+        "analysis": {
+            "short_term_score": -0.05,
+            "long_term_score": -0.15,
+            "reasoning": "ジェンスン・フアンCEOの発言は、中国市場の喪失がAIエコシステムの分断を招き、NVIDIAの中長期的な市場シェアに構造的リスクをもたらす懸念を浮き彫りにしている。短期的には、Anthropic等の競合CEOによる規制強化の主張が不透明感を強め、投資家心理をやや慎重にさせる。クオンツ的には、中国市場という巨大なTAM（獲得可能な最大市場規模）の縮小リスクと、米中二極化によるサプライチェーンの非効率化が将来の収益性を圧迫する要因となる。一方で、圧倒的な計算資源の需要超過は続くため急落は考えにくい。対話による規制回避を模索する姿勢は、地政学的リスクを最小化しようとする経営の焦燥感とも受け取れるため、評価は慎重とした。"
+        },
+        "is_fallback": true
     }
 ]
