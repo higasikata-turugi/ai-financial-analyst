@@ -569,5 +569,27 @@
             "reasoning": "ジェンスン・フアンCEOの発言は、中国市場の喪失がAIエコシステムの分断を招き、NVIDIAの中長期的な市場シェアに構造的リスクをもたらす懸念を浮き彫りにしている。短期的には、Anthropic等の競合CEOによる規制強化の主張が不透明感を強め、投資家心理をやや慎重にさせる。クオンツ的には、中国市場という巨大なTAM（獲得可能な最大市場規模）の縮小リスクと、米中二極化によるサプライチェーンの非効率化が将来の収益性を圧迫する要因となる。一方で、圧倒的な計算資源の需要超過は続くため急落は考えにくい。対話による規制回避を模索する姿勢は、地政学的リスクを最小化しようとする経営の焦燥感とも受け取れるため、評価は慎重とした。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-05-05",
+        "title": "Nscale to Deliver 66,000+ NVIDIA Rubin GPUs to Microsoft at Start Campus' Site in Portugal",
+        "url": "https://www.prnewswire.co.uk/news-releases/nscale-to-deliver-66-000-nvidia-rubin-gpus-to-microsoft-at-start-campus-site-in-portugal-302762272.html",
+        "analysis": {
+            "short_term_score": 0.2,
+            "long_term_score": 0.8,
+            "reasoning": "NVIDIAの次世代アーキテクチャ「Rubin」に対する、Microsoftによる6.6万個超という大規模な先行予約は、AI需要の長期的な持続性を示す強力なシグナルである。Blackwellの次のサイクルまで収益の透明性が確保されたことは、競合他社や内製チップへの懸念を払拭し、クオンツ的なバリュエーションの維持に寄与する。短期的な株価への影響は2027年稼働という時間軸から限定的だが、ハイパースケーラーの投資継続意欲はサプライチェーン全体にポジティブ。ポルトガルでの展開は欧州市場のハブ化を促し、地政学的リスクの分散と市場拡大の両面で評価できる。NVIDIAの圧倒的な先行優位性とエコシステムの強固さを再確認させる内容である。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-05-05",
+        "title": "​Beyond China: Nvidia bets big on the global AI boom​",
+        "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/beyond-china-nvidia-bets-big-on-the-global-ai-boom/slideshow/130819013.cms",
+        "analysis": {
+            "short_term_score": -0.2,
+            "long_term_score": 0.75,
+            "reasoning": "中国市場からの事実上の撤退および地政学的リスクの顕在化は、短期的には売上構成比の変動と投資家の心理的動揺を招き、株価にマイナスのモメンタムを与える可能性がある。しかし、クオンツ分析の観点からは、このリスクは米政府の輸出規制強化により既に一定程度織り込まれている。長期的には、中国依存度の低下が地政学的なテールリスクを軽減し、中東や東南アジアを含むグローバルなAI需要の爆発的成長を捉える戦略的転換点となる。Blackwellアーキテクチャ等の圧倒的技術優位性とサプライチェーンの垂直統合力により、競合他社の追随を許さず、高い営業利益率を維持しながら持続的なEPS成長が可能であると評価する。"
+        },
+        "is_fallback": true
     }
 ]
