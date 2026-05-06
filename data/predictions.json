@@ -591,5 +591,38 @@
             "reasoning": "中国市場からの事実上の撤退および地政学的リスクの顕在化は、短期的には売上構成比の変動と投資家の心理的動揺を招き、株価にマイナスのモメンタムを与える可能性がある。しかし、クオンツ分析の観点からは、このリスクは米政府の輸出規制強化により既に一定程度織り込まれている。長期的には、中国依存度の低下が地政学的なテールリスクを軽減し、中東や東南アジアを含むグローバルなAI需要の爆発的成長を捉える戦略的転換点となる。Blackwellアーキテクチャ等の圧倒的技術優位性とサプライチェーンの垂直統合力により、競合他社の追随を許さず、高い営業利益率を維持しながら持続的なEPS成長が可能であると評価する。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-05-06",
+        "title": "Nvidia, Corning partner on three new optical factories NC, Texas",
+        "url": "https://www.cnbc.com/2026/05/06/nvidia-corning-optical-factories-nc-texas-ai.html",
+        "analysis": {
+            "short_term_score": 0.4,
+            "long_term_score": 0.85,
+            "reasoning": "CorningがNVIDIA専用の光技術工場を3拠点新設することは、AIデータセンターの通信ボトルネック解消に向けた極めて重要な布石です。短期的には、NVIDIAの次世代AIインフラへの旺盛な需要が再確認され、株価にはポジティブに作用します。長期的には、光インターコネクト技術（CPO等）の供給網を米国内で独占的に確保することで、地政学的リスクを低減しつつ、AMD等の競合に対する技術的・供給的な参入障壁をさらに高める効果があります。データ伝送の高速化はマルチノード学習の効率に直結するため、この提携はNVIDIAのエコシステム支配力を長期にわたり盤石にする戦略的な一手と評価できます。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-05-06",
+        "title": "Is Alphabet overtaking Nvidia? The AI chip king's reign is under threat",
+        "url": "https://economictimes.indiatimes.com/tech/technology/is-alphabet-overtaking-nvidia-the-ai-chip-kings-reign-is-under-threat/articleshow/130847920.cms",
+        "analysis": {
+            "short_term_score": -0.1,
+            "long_term_score": -0.3,
+            "reasoning": "Alphabetによる自社製AIチップ開発とクラウド事業の急拡大は、NVIDIAの最大の顧客層が競合へ転じる「垂直統合」のリスクを象徴しています。短期的には、大手テック企業によるAIインフラ投資の総額維持がNVIDIAの収益を支える一方、競合台頭のニュースは市場センチメントに心理的な重石となります。長期的には、ハイパースケーラーの脱NVIDIA依存が加速することで、同社の圧倒的な市場シェアと高水準の利益率が侵食される構造的な脅威となります。サプライチェーンにおける代替品の存在は、業界全体にはレジリエンスをもたらしますが、NVIDIA単体の独占的バリュエーションに対しては下方圧力として作用するでしょう。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-05-06",
+        "title": "After Nvidia share falls to zero in China, CEO Jensen Huang says: China should not have ...",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/after-nvidia-share-falls-to-zero-in-china-ceo-jensen-huang-says-china-should-not-have-/articleshow/130846268.cms",
+        "analysis": {
+            "short_term_score": -0.2,
+            "long_term_score": 0.7,
+            "reasoning": "CEOの『米国優先』発言は、対中輸出規制に伴う中国市場でのシェア喪失を事実上認めたものであり、短期的には売上高の約2割を占めていた同市場の減収懸念がセンチメントを悪化させる。特にHuawei等の現地競合への代替加速は地政学リスクとして意識される。しかし、長期的には米国内のハイパースケーラー（MSFT、GOOGL等）やソブリンAI需要が中国の欠損を補って余りあるほど強固である。米国政策への完全な同調は、CHIPS法に基づく支援や政府調達の優先順位を高めるポジティブな側面もあり、CUDAを核とした独占的エコシステムの優位性は揺るがない。中国依存の低減は将来的な制裁リスクを浄化し、資本効率を最適化する。投資家は地政学の不透明感よりも、米国中心の次世代AIインフラへの集中投資を評価するだろう。"
+        },
+        "is_fallback": true
     }
 ]
