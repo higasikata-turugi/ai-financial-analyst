@@ -624,5 +624,27 @@
             "reasoning": "CEOの『米国優先』発言は、対中輸出規制に伴う中国市場でのシェア喪失を事実上認めたものであり、短期的には売上高の約2割を占めていた同市場の減収懸念がセンチメントを悪化させる。特にHuawei等の現地競合への代替加速は地政学リスクとして意識される。しかし、長期的には米国内のハイパースケーラー（MSFT、GOOGL等）やソブリンAI需要が中国の欠損を補って余りあるほど強固である。米国政策への完全な同調は、CHIPS法に基づく支援や政府調達の優先順位を高めるポジティブな側面もあり、CUDAを核とした独占的エコシステムの優位性は揺るがない。中国依存の低減は将来的な制裁リスクを浄化し、資本効率を最適化する。投資家は地政学の不透明感よりも、米国中心の次世代AIインフラへの集中投資を評価するだろう。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-05-07",
+        "title": "Anthropic hikes Claude usage limits for paid users post SpaceX compute deal",
+        "url": "https://www.business-standard.com/technology/tech-news/anthropic-claude-usage-rate-limit-increased-paid-users-spacex-compute-deal-new-limits-126050700994_1.html",
+        "analysis": {
+            "short_term_score": 0.4,
+            "long_term_score": 0.8,
+            "reasoning": "AnthropicがSpaceXのColossus 1（22万個以上のNVIDIA製GPU搭載）を活用し制限を緩和したニュースは、NVIDIAにとって極めてポジティブです。短期的には、これほどの規模のインフラが実働し、収益化フェーズに入ったことが投資家心理を改善させます。長期的には、AI開発における「計算資源の規模＝競争力」という構図を強化し、次世代GPUへの継続的な移行需要を確実なものにします。xAIやAnthropicといった多様な主体による大規模発注は、特定顧客への依存リスクを低減しつつ、CUDAエコシステムの独占的地位を盤石にします。サプライチェーン全体における圧倒的な需要の持続性を示唆する材料です。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-05-07",
+        "title": "NVIDIA Aims To Expand Manufacturing Capacity In The US By 10x Through Corning Partnership, Mainly Focusing on Optical Connectivity",
+        "url": "https://wccftech.com/nvidia-to-expand-manufacturing-capacity-in-us-by-10x-through-corning-partnership/",
+        "analysis": {
+            "short_term_score": 0.3,
+            "long_term_score": 0.8,
+            "reasoning": "Corningとの提携による光接続（Optical Connectivity）の生産能力10倍拡大は、AIデータセンターにおけるデータ転送のボトルネック解消に直結する戦略的布石である。次世代GPUクラスターでは光インターコネクトの重要性が極めて高く、このサプライチェーン強化はBroadcom等の競合に対する優位性を固める。また、米国国内での製造拠点拡大は地政学リスクの低減と、米政府の政策的恩恵（CHIPS法等）を享受しやすく、長期的なレジリエンスと収益性を高める要因となる。短期的にはポジティブなセンチメントを形成するが、実際の稼働と業績寄与には時間を要するため、中長期的な競争優位の確立をより高く評価した。"
+        },
+        "is_fallback": true
     }
 ]
