@@ -646,5 +646,27 @@
             "reasoning": "Corningとの提携による光接続（Optical Connectivity）の生産能力10倍拡大は、AIデータセンターにおけるデータ転送のボトルネック解消に直結する戦略的布石である。次世代GPUクラスターでは光インターコネクトの重要性が極めて高く、このサプライチェーン強化はBroadcom等の競合に対する優位性を固める。また、米国国内での製造拠点拡大は地政学リスクの低減と、米政府の政策的恩恵（CHIPS法等）を享受しやすく、長期的なレジリエンスと収益性を高める要因となる。短期的にはポジティブなセンチメントを形成するが、実際の稼働と業績寄与には時間を要するため、中長期的な競争優位の確立をより高く評価した。"
         },
         "is_fallback": true
+    },
+    {
+        "date": "2026-05-08",
+        "title": "What's Going On With IREN Stock On Friday?",
+        "url": "https://www.benzinga.com/markets/equities/26/05/52404666/whats-going-on-with-iren-stock-on-friday",
+        "analysis": {
+            "short_term_score": 0.2,
+            "long_term_score": 0.3,
+            "reasoning": "IREN（旧Iris Energy）との21億ドル規模の潜在的提携は、NVIDIAにとって顧客基盤の多角化を示す好材料である。ビットコインマイナーがAIインフラへ転換する動きは、ビッグテック以外の「GPU-as-a-Service」需要の強さを裏付けており、短期的なセンチメントを補強する。長期的には、データセンター市場の裾野が広がり、特定顧客への依存リスクが軽減される。サプライチェーン視点では、次世代チップへの引き合いが依然として旺盛であることを示唆しており、競合に対する圧倒的シェアを維持する裏付けとなる。マクロ経済におけるAI投資のROI懸念に対し、インフラ需要の持続性を証明するエビデンスとして機能するだろう。"
+        },
+        "is_fallback": true
+    },
+    {
+        "date": "2026-05-08",
+        "title": "US probes Nvidia chip-smuggling via Thailand",
+        "url": "https://www.bangkokpost.com/thailand/general/3251889/us-probes-nvidia-chipsmuggling-via-thailand",
+        "analysis": {
+            "short_term_score": -0.4,
+            "long_term_score": -0.15,
+            "reasoning": "米当局による25億ドル規模の密輸調査は、短期的にはガバナンスリスクと地政学的緊張を高め、株価の重石となる。タイの国家プロジェクト関連企業が関与している点は、東南アジア全域への輸出規制強化を招く恐れがあり、サプライチェーンの監視コスト増大が懸念される。また、中国向け輸出規制の有効性に対する不信感は、米議会による更なる強硬策を誘発する可能性がある。一方で、密輸が横行する事実はNVIDIA製品の圧倒的代替不能性を示唆しており、長期的な需要の強固さを裏付ける側面もある。競合他社への直接的なシェア転換は起きにくいが、規制強化による中国市場の完全な遮断リスクがプレミアムを抑制するため、中長期でもややマイナスの影響と評価する。"
+        },
+        "is_fallback": true
     }
 ]
